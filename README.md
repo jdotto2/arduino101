@@ -7,6 +7,5 @@ To connect your device with the IDE, plug in the USB cable to your device and co
 [Select board](https://github.com/unl-robotic/arduino101/blob/master/images/arduino001.PNG "figure1")
 [Select port](https://github.com/unl-robotic/arduino101/blob/master/images/arduino002.PNG "figure2")
 
-[Basic button](https://github.com/unl-robotic/arduino101/blob/master/images/arduino004.PNG "figure3")
 
 
