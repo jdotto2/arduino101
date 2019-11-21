@@ -2,7 +2,7 @@
 
 Arduino uses C and C++ programming language, the compilers are board specific and supports a variety of features. Begin with a new sketch, you will see the workspace as shown below
 
-![workspace](https://github.com/unl-robotic/arduino101/blob/master/images/arduino005.PNG =480x240)
+![workspace](https://github.com/unl-robotic/arduino101/blob/master/images/arduino005.PNG "figure1")
 
 At first glance, you will find `void setup()` and `void loop()`. In a nutshell, you will write whatever code to be run once inside `void setup()` and repeating code inside `void loop()`. To whoever familiar with C/C++, you will realize Arduino does not have the default `int main()` function, but you actually can write it in the standard style with `int main()`
 
@@ -27,4 +27,4 @@ void loop(){
     delay(100);
 }
 ```
-Here we set pin 13 to output mode, which it can write to be `HIGH` (5V) or `LOW` (0V) by using `digitalWrite(PIN_NUMBER, STATE)`. The `delay()` function will pause the system to the given number of miliseconds. In this example, the LED will stay on for 100 ms and OFF for another 100 ms repeatedly.
+Here we set pin 13 to output mode, which it can write to be `HIGH` (5 volt) or `LOW` (0 volt) by using `digitalWrite(PIN_NUMBER, STATE)`. The `delay()` function will pause the system to the given number of miliseconds. In this example, the LED will stay on for 100 ms and OFF for another 100 ms repeatedly.
