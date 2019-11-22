@@ -17,10 +17,3 @@ To connect your device with the IDE, plug in the USB cable to your device and co
 
 Select the correct port, your device name should show up next to it.
 ![Select port](https://github.com/unl-robotic/arduino101/blob/master/images/arduino002.PNG "figure2")
-
-
-## Useful Buttons
-The top panel has some useful buttons
-![Basic button](https://github.com/unl-robotic/arduino101/blob/master/images/arduino004.PNG "figure3")
-
-
