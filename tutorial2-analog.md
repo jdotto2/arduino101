@@ -1,4 +1,4 @@
-# Analog
+# Analog Output
 Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. The table below showing all the analog write avaliable pin on various Arduino boards.
 
 | BOARD	| PWM PINS	| PWM FREQUENCY | 
