@@ -13,8 +13,9 @@ Here is a collection of tutorial for Arduino
 - [tutorial 5 - Utrasonic Range Finder and External Library]()
 - [tutorial 6 - Servo Control and Understanding Specsheet]()
 - [tutorial 8 - Inertial Measurement Unit]()
-- [tutorial 9 - Wheel Robot Control]()
-- [tutorial 10 - Function and Library Writing]()
+- [tutorial 9 - Wheeled Robot Control]()
+- [tutorial 10 - Line Following]()
+- [programming - Function and Library Writing]()
 
 
 ## Arduino IDE
