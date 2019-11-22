@@ -4,7 +4,7 @@ Here is a collection of tutorial for Arduino
 - [tutorial 0 - Programming Interface](https://github.com/unl-robotic/arduino101/blob/master/tutorial0-interface.md)
 - [tutorial 1 - Digital I/O](https://github.com/unl-robotic/arduino101/blob/master/tutorial1-digital.md)
 - [tutorial 2 - Analog Output](https://github.com/unl-robotic/arduino101/blob/master/tutorial2-analog.md)
-- [tutorial 3 - Analog Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial3-analog2.md)
+- [tutorial 3 - Analog Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial3-analog-input.md)
 
 ## Arduino IDE
 
