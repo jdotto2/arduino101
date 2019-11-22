@@ -1,5 +1,5 @@
-# Analog Output
-Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. The table below showing all the analog write avaliable pin on various Arduino boards.
+# Analog Output (PWM)
+Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. Read [this](https://www.arduino.cc/en/Tutorial/PWM) article from Arduino to understand PWM more. The table below showing all the analog write avaliable pin on various Arduino boards.
 
 | BOARD	| PWM PINS	| PWM FREQUENCY | 
 |-------|-----------|---------------|
@@ -15,6 +15,7 @@ Arduino provide analog output for some of its digital pin, analog output meaning
 
 For Arduino UNO, pins 3, 5, 6, 9, 10, 11 are PWM-available, you can see they have tilde sign next to the pin numbers. 
 
+# Fading in LED 
 To demonstrate the analog output features, we will reuse the same LED circuit from last execise but switching our pin to any of the PWM available pins.
 
 ```C
@@ -33,5 +34,46 @@ In this example, I choose to use pin 10. Note that the same writing of `pinMode`
 
 I used variable `i` to hold my analog level. The line `int i = 0;` is the declare and initializer of my variable `i` to be an `integer` type and has a value of `0`. `i++` increments the value by one for each pass and `if (i >= 255) i=0;` is a if-condition that reset my `i` to be zero once `i` is greater or equal to 255. 
 
-In summary, I ask the microcontroller to increase the brightness of the LED slowly and turn it off once it hit the full brightness.
+In summary, I ask the microcontroller to increase the brightness of the LED slowly and reset it once it hit the full brightness. In a more verbose writing, see below:
+```C
+void setup(){
+    pinMode(10, OUTPUT);
+}
+
+int i = 0;
+void loop(){
+    analogWrite(13, i);
+    i = i + 1;
+    delay(15);
+    if (i >= 255){
+        i=0;
+    }    
+}
+```
+
+# Fading In and Out
+However, it is more satisfying is the brightness of the LED is fading in and out. Then `i` should be increasing and then decreasing symmetrically.
+```C
+void setup(){
+    pinMode(10, OUTPUT);
+}
+
+int i = 0;
+bool FADING_IN = true;
+void loop(){
+    analogWrite(13, i);
+    delay(15);
+    if (FADING_IN){
+        i++;
+        if ( i >= 255 ){
+            FADING_IN = false;
+    }else{
+        i--;
+        if ( i <= 0 ){
+            FADING_IN = true;
+    }
+}
+```
+Here we add a new type of variable, `FADING_IN` is a `boolean` type which it can only hold `true` or `false`. In the begining, `FADING_IN` is true that the if statement will enter the first block which increment the value `i` one at a time. Once `i` is greater or equal to 255, it switches `FADING_IN` into `false`, such that in the next iteration, the if-statement will enter the second block, which decrement the value `i` and so on.
+
 
