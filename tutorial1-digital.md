@@ -1,5 +1,5 @@
 # Digital I/O
-Pin 3 to 13 on UNO are digital I/O, they can be set as either input or output mode. To do that, write `pinMode(PIN_NUMBER, MODE)` in `setup()` function block. 
+Pin 3 to 13 as well as A0 to A5 on UNO are digital I/O, they can be set as either input or output mode. To do that, write `pinMode(PIN_NUMBER, MODE)` in `setup()` function block. 
 
 In this example, we will use the on board LED which is internally connect to pin 13. You can check at the small LED next to pin 13.
 ```C
