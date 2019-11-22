@@ -34,6 +34,7 @@ Breadboard is a very common tool for prototyping electronics and circuitries, yo
 
 ## Connecting with External LED
 To wire your external LED, follow the circuit below. Just connect the digital output pin in series with LED, resistor, and goes back to ground pin of your Arduino.
+
 ![](https://cdn.instructables.com/F60/IZJJ/I8ZQZMO9/F60IZJJI8ZQZMO9.LARGE.jpg?auto=webp&&frame=1&fit=bounds) 
 
 ```C
@@ -52,6 +53,7 @@ You should observe the same LED blinking pattern.
 
 ## Multiple LEDs
 Now we can try to expand the circuitry by including more LEDs. Follow the diagram below to connect 6 LEDs to pin 2 to pin 7.
+
 ![](https://www.arduino.cc/en/uploads/Tutorial/forLoop_bb.png "Multiple LEDs")
 
 ```C
