@@ -1,5 +1,9 @@
 # Analog Output (PWM)
-Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. PWM is very useful for controlling Servo motor and DC motor. Read [this](https://www.arduino.cc/en/Tutorial/PWM) article from Arduino to understand PWM more. The table below showing all the analog write avaliable pin on various Arduino boards.
+Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. By adjusting the duty cycle, we can alter the "analog voltage". PWM is very useful for controlling Servo motor and DC motor. Read [this](https://www.arduino.cc/en/Tutorial/PWM) article from Arduino to understand PWM more.  
+
+![](https://www.arduino.cc/en/uploads/Tutorial/pwm.gif "figure1")
+
+The table below showing all the analog write avaliable pin on various Arduino boards.
 
 | BOARD	| PWM PINS	| PWM FREQUENCY | 
 |-------|-----------|---------------|
