@@ -1,5 +1,5 @@
 # Analog Output (PWM)
-Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. Read [this](https://www.arduino.cc/en/Tutorial/PWM) article from Arduino to understand PWM more. The table below showing all the analog write avaliable pin on various Arduino boards.
+Arduino provide analog output for some of its digital pin, analog output meaning it is generating a voltage value that is in between 0V and 5V. In actual, Arduino generates Puise-Width-Modulation (PWM) which is essentially turning the voltage on and off very quickly to simulate the analog voltage. PWM is very useful for controlling Servo motor and DC motor. Read [this](https://www.arduino.cc/en/Tutorial/PWM) article from Arduino to understand PWM more. The table below showing all the analog write avaliable pin on various Arduino boards.
 
 | BOARD	| PWM PINS	| PWM FREQUENCY | 
 |-------|-----------|---------------|
@@ -31,7 +31,7 @@ void loop(){
     if (i >= 255) i=0;
 }
 ```
-In this example, I use pin 10. Note that the same writing of `pinMode` to let our microcontroller to configure pin 10 to be at output mode. On Arduino UNO, `analogWrite` slices the voltage into 256 levels, such that `analogWrite(10, 0)` would be full off and `analogWrite(10, 255)` will be full on. 
+In this example, I use pin 10 which has PWM output. Note that the same writing of `pinMode` to let our microcontroller to configure pin 10 to be at output mode. On Arduino UNO, `analogWrite` slices the voltage into 256 levels, such that `analogWrite(10, 0)` would be full off and `analogWrite(10, 255)` will be full on. 
 
 I used variable `i` to hold my analog level. The line `int i = 0;` is the declare and initializer of my variable `i` to be an `integer` type and has a value of `0`. `i++` increments the value by one for each pass and `if (i >= 255) i=0;` is a if-condition that reset my `i` to be zero once `i` is greater or equal to 255. 
 
