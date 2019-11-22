@@ -16,6 +16,7 @@ Arduino provide analog output for some of its digital pin, analog output meaning
 For Arduino UNO, pins 3, 5, 6, 9, 10, 11 are PWM-available, you can see they have tilde sign next to the pin numbers. 
 
 # Fading in LED 
+![](https://cdn.instructables.com/F60/IZJJ/I8ZQZMO9/F60IZJJI8ZQZMO9.LARGE.jpg?auto=webp&&frame=1&fit=bounds) 
 To demonstrate the analog output features, we will reuse the same LED circuit from last execise but switching our pin to any of the PWM available pins.
 
 ```C
@@ -30,7 +31,7 @@ void loop(){
     if (i >= 255) i=0;
 }
 ```
-In this example, I choose to use pin 10. Note that the same writing of `pinMode` to let our microcontroller to configure pin 10 to be at output mode. On Arduino UNO, `analogWrite` slices the voltage into 256 levels, such that `analogWrite(10, 0)` would be full off and `analogWrite(10, 255)` will be full on. 
+In this example, I use pin 10. Note that the same writing of `pinMode` to let our microcontroller to configure pin 10 to be at output mode. On Arduino UNO, `analogWrite` slices the voltage into 256 levels, such that `analogWrite(10, 0)` would be full off and `analogWrite(10, 255)` will be full on. 
 
 I used variable `i` to hold my analog level. The line `int i = 0;` is the declare and initializer of my variable `i` to be an `integer` type and has a value of `0`. `i++` increments the value by one for each pass and `if (i >= 255) i=0;` is a if-condition that reset my `i` to be zero once `i` is greater or equal to 255. 
 
