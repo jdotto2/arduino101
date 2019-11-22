@@ -41,7 +41,7 @@ It is important to add a so-call current limiting resistor to ensure the LED doe
 ## Breadboard
 Breadboard is a very common tool for prototyping electronics and circuitries, you can just plug in your components with wires to complete and test out your circuits without needing to solder. Note how the breadboard are internally connected, the long edge has the power rails, usually for power and ground lines, and then at the middle the rails are running in perpendicular direction. Sparkfun has a [detail tutorial](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all) for breadboard, check it out if you are interested.
 
-![](http://wiring.org.co/learning/tutorials/breadboard/imgs/breadboard-03.jpg)
+![](http://wiring.org.co/learning/tutorials/breadboard/imgs/breadboard-02.jpg)
 
 ## Connecting with External LED
 To wire your external LED, follow the circuit below. Just connect the digital output pin in series with LED, resistor, and goes back to ground pin of your Arduino.
