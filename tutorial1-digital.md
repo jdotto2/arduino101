@@ -36,3 +36,48 @@ Breadboard is a very common tool for prototyping electronics and circuitries, yo
 To wire your external LED, follow the circuit below. Just connect the digital output pin in series with LED, resistor, and goes back to ground pin of your Arduino.
 ![](https://cdn.instructables.com/F60/IZJJ/I8ZQZMO9/F60IZJJI8ZQZMO9.LARGE.jpg?auto=webp&&frame=1&fit=bounds) 
 
+```C
+void setup(){
+    pinMode(7, OUTPUT);
+}
+
+void loop(){
+    digitalWrite(7, HIGH);
+    delay(100);
+    digitalWrite(7, LOW);
+    delay(100);
+}
+```
+You should observe the same LED blinking pattern.
+
+## Multiple LEDs
+Now we can try to expand the circuitry by including more LEDs. Follow the diagram below to connect 6 LEDs to pin 2 to pin 7.
+![](https://www.arduino.cc/en/uploads/Tutorial/forLoop_bb.png "Multiple LEDs")
+
+```C
+void setup(){
+    pinMode(2, OUTPUT);
+    pinMode(3, OUTPUT);
+    pinMode(4, OUTPUT);
+    pinMode(5, OUTPUT);
+    pinMode(6, OUTPUT);
+    pinMode(7, OUTPUT);
+}
+
+void loop(){
+    for ( int i = 2 ; i < 8 ; i++ ){
+        digitalWrite(i, HIGH);
+        delay(100);
+    }
+    for ( int i = 2 ; i < 8 ; i++ ){
+        digitalWrite(i, LOW);
+        delay(100);
+    }
+}
+```
+
+In this example, the LEDs will light up one by one in order and then turn off one by one. We implement a for-loop structure to iterate through each pin, in this case we started from pin 2, and then increment by one at a time till pin 7.
+
+You can try write your code to make the LEDs to light up in different patterns.
+
+[Next Activity - Digital Input](https://github.com/unl-robotic/arduino101/edit/master/tutorial1b-digital-input.md)
