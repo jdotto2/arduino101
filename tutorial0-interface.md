@@ -1,6 +1,8 @@
 # Programming interface
 
-Arduino uses C and C++ programming language, the compilers are board specific and supports a variety of features. Begin with a new sketch, you will see the workspace as shown below
+Arduino uses C and C++ programming language, the compilers are board specific and supports a variety of features. Begin with a new sketch, you will see the workspace as shown below. The top panel has some useful buttons.
+
+![Basic button](https://github.com/unl-robotic/arduino101/blob/master/images/arduino004.PNG "figure3")
 
 ![workspace](https://github.com/unl-robotic/arduino101/blob/master/images/arduino005.PNG "figure1")
 
