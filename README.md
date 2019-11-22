@@ -2,9 +2,19 @@
 Here is a collection of tutorial for Arduino
 
 - [tutorial 0 - Programming Interface](https://github.com/unl-robotic/arduino101/blob/master/tutorial0-interface.md)
-- [tutorial 1 - Digital I/O](https://github.com/unl-robotic/arduino101/blob/master/tutorial1-digital.md)
+- [tutorial 1 - Digital Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial1-digital.md)
+- [tutorial 1b - Digital Output](https://github.com/unl-robotic/arduino101/blob/master/tutorial1b-digital-output.md)
 - [tutorial 2 - Analog Output](https://github.com/unl-robotic/arduino101/blob/master/tutorial2-analog.md)
 - [tutorial 3 - Analog Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial3-analog-input.md)
+(incomplete)
+- [tutorial 4 - Serial Communication and Serial Debug]()
+- [tutorial 5 - Utrasonic Range Finder and External Library]()
+- [tutorial 6 - Servo Control and Understanding Specsheet]()
+- [tutorial 7 - DC Motor Control]()
+- [tutorial 8 - Inertial Measurement Unit]()
+- [tutorial 9 - Wheel Robot Control]()
+- [tutorial 10 - Function and Library Writing]()
+
 
 ## Arduino IDE
 
