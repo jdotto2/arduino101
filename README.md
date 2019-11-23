@@ -2,8 +2,8 @@
 Here is a collection of tutorial for Arduino
 
 - [tutorial 0 - Programming Interface](https://github.com/unl-robotic/arduino101/blob/master/tutorial0-interface.md)
-- [tutorial 1 - Digital Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial1-digital.md)
-- [tutorial 1b - Digital Output](https://github.com/unl-robotic/arduino101/blob/master/tutorial1b-digital-output.md)
+- [tutorial 1 - Digital Output](https://github.com/unl-robotic/arduino101/blob/master/tutorial1-digital.md)
+- [tutorial 1b - Digital Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial1b-digital-output.md)
 - [tutorial 2 - Analog Output](https://github.com/unl-robotic/arduino101/blob/master/tutorial2-analog.md)
 - [tutorial 3 - Analog Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial3-analog-input.md)
 - [tutorial 7 - DC Motor Control](https://github.com/ctliew/Motor_Control_Basic)
