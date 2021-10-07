@@ -3,6 +3,8 @@ Pin 3 to 13 as well as A0 to A5 on UNO are digital I/O, they can be set as eithe
 
 ## Digital Ouputs
 
+![](https://github.com/unl-robotic/arduino101/blob/master/images/arduino_onboard_led.PNG "on-board LED")
+
 In this example, we will use the on board LED which is internally connect to pin 13. You can check at the small LED next to pin 13.
 ```C
 void setup(){
