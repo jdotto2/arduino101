@@ -19,4 +19,4 @@ void loop(){
     delay(15);
 }
 ```
-In this example, we read in the analog input, which comes in the range of `0-1023`, and write to analog output, which has a range of `0-255`, so we divide it by 4 to fit the mapping. Notice that we do not need to set pin mode, all the pins are implicitly in high-impedence mode or input mode. However, if you used the same pin for an output, you will need to set it back to input mode. 
+In this example, we read in the analog input, which comes in the range of `0-1023`, and write to analog output, which has a range of `0-255`, so we divide it by 4 to fit the mapping. Notice that we do not need to set pin mode, all the pins are implicitly in high-impedence mode or input mode. However, if you used the same pin for an output, you will need to set it to output mode manually using ``pinMode``. 
