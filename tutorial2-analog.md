@@ -34,6 +34,7 @@ void loop(){
 }
 ```
 In this example, I use pin 10 which has PWM output. Note that the same writing of `pinMode` to let our microcontroller to configure pin 10 to be at output mode. On Arduino UNO, `analogWrite` slices the voltage into 256 levels, such that `analogWrite(10, 0)` would be full off and `analogWrite(10, 255)` will be full on. 
+
 ![](https://www.arduino.cc/en/uploads/Tutorial/pwm.gif "figure1")
 
 I used variable `i` to hold my analog level. The line `int i = 0;` is the declare and initializer of my variable `i` to be an `integer` type and has a value of `0`. `i++` increments the value by one for each pass and `if (i >= 255) i=0;` is a if-condition that reset my `i` to be zero once `i` is greater or equal to 255. 
