@@ -6,6 +6,8 @@ In most cases, you would want to use a ``INPUT_PULLUP`` mode instead of ``INPUT`
 
 An ``INPUT`` mode would be used for two cases, one is if the pin is connected to an external circuitry which contains its pull-up or pull-down resistor, in such cases ``INPUT_PULLUP`` will interference with the external circuitry and may cause issues. Another cases is that you are reading an analog voltage.
 
+Check out [this link](https://roboticsbackend.com/arduino-input_pullup-pinmode/) to read more about the pull up pin mode.
+
 ## Example
 
 In this example, we are using pin 7 as an input by connecting it to a button, and connecting a LED to pin 8 as an output.
