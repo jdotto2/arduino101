@@ -17,6 +17,8 @@ The table below showing all the analog write avaliable pin on various Arduino bo
 
 For Arduino UNO, pins 3, 5, 6, 9, 10, 11 are PWM-available, you can see they have tilde sign next to the pin numbers. 
 
+![](https://github.com/unl-robotic/arduino101/blob/master/images/arduino_pwm_tilde.PNG "figure")
+
 # Fading in LED 
 ![](https://cdn.instructables.com/F60/IZJJ/I8ZQZMO9/F60IZJJI8ZQZMO9.LARGE.jpg?auto=webp&&frame=1&fit=bounds) 
 To demonstrate the analog output features, we will reuse the same LED circuit from last execise but switching our pin to any of the PWM available pins.
