@@ -29,5 +29,18 @@ IMUs combine input from several different sensor types in order to accurately ou
 
 ## Today's activity!
 
+- Experiment with IMU chips
+	- GY-521 (ITG/MPU)
+	 ![GY-521](https://github.com/jdotto2/arduino101/blob/tutorial8-IMU/images/GY-521.PNG)
+	- LSM303DLHC
+	- MMA8451
+- Program the chips with Arduino
+- Generate csv data from the chips
+- Plot csv data in excel
+
+### Arduino libraries required
+
+
+
 
 
