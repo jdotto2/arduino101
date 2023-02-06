@@ -58,6 +58,21 @@ IMUs combine input from several different sensor types in order to accurately ou
 - #### SDA --> Arduino SDA (pin A4 on UNO)
 - #### SCL --> Arduino SCL (pin A5 on UNO)
 
+## Generating csv data (accelerometer only for simplicity) 
 
+```c
+void setup() {
+
+//put your CSV headers here, so they are written once.
+// example: timestamp, x, y, z
+
+}
+
+void loop() {
+// create a comma-separated string with x, y, and z acceleration values in m/s2 and use the built-in millis() function as a timestamp
+}
+```
+Then copy the output of the serial monitor to a file and save the file with a .csv extension.
+Then load the csv file into excel and plot the data.
 
 
