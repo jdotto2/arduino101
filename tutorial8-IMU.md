@@ -19,11 +19,14 @@ IMUs can measure a variety of factors, including speed, direction, acceleration,
 
 ### Each tool in an IMU is used to capture different data types:
 
-- Accelerometer: measures velocity and acceleration
+- #### Accelerometer: 
+	- measures velocity and acceleration
 
-- Gyroscope: measures rotation and rotational rate
+- #### Gyroscope: 
+	- measures rotation and rotational rate
 
-- Magnetometer: establishes cardinal direction (directional heading)
+- #### Magnetometer: 
+	- establishes cardinal direction (directional heading)
 
 IMUs combine input from several different sensor types in order to accurately output movement.
 
