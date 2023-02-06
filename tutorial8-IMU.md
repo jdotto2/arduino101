@@ -43,8 +43,20 @@ IMUs combine input from several different sensor types in order to accurately ou
 - ### Generate csv data from the chips
 - ### Plot csv data in excel
 
-### Arduino libraries required
+## Arduino libraries required
 
+- #### "Adafruit MPU6050" (with depedencies), for the GY-521 chip
+- #### "Adafruit LSM303DLHC", for the LSM303DLHC chip
+- #### "Adafruit MMA8451", for the MMA8451 chip
+
+## Wiring instructions
+
+#### All chips are I2C. So, only 4 wires (+5V, GND, SDA, SCL) are used.
+
+- #### VCC/Vin --> Arduino +5V
+- #### GND --> Arduino GND
+- #### SDA --> Arduino SDA (pin A4 on UNO)
+- #### SCL --> Arduino SCL (pin A5 on UNO)
 
 
 
