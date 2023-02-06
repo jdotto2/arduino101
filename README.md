@@ -8,12 +8,12 @@ Here is a collection of tutorial for Arduino
 - [tutorial 3 - Analog Input](https://github.com/unl-robotic/arduino101/blob/master/tutorial3-analog-input.md)
 - [tutorial 4 - Serial Communication and Serial Debug](https://github.com/unl-robotic/arduino101/blob/master/tutorial4-serial.md)
 - [tutorial 7 - DC Motor Control](https://github.com/ctliew/Motor_Control_Basic)
+- [tutorial 8 - Inertial Measurement Unit](https://github.com/jdotto2/arduino101/tree/tutorial8-IMU)
 
 (incomplete)
 
 - [tutorial 5 - Utrasonic Range Finder and External Library]()
 - [tutorial 6 - Servo Control and Understanding Specsheet]()
-- [tutorial 8 - Inertial Measurement Unit]()
 - [tutorial 9 - Wheeled Robot Control]()
 - [tutorial 10 - Line Following]()
 - [programming - Function and Library Writing]()
