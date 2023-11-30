@@ -34,11 +34,11 @@ IMUs combine input from several different sensor types in order to accurately ou
 
 - ### Experiment with IMU chips
 	- #### GY-521 (ITG/MPU)
-		![GY-521](https://github.com/jdotto2/arduino101/blob/tutorial8-IMU/images/GY-521.PNG)
+		![GY-521](images/GY-521.PNG)
 	- #### LSM303DLHC
-		![GY-521](https://github.com/jdotto2/arduino101/blob/tutorial8-IMU/images/LSM303DLHC.PNG)
+		![GY-521](images/LSM303DLHC.PNG)
 	- #### MMA8451
-		![GY-521](https://github.com/jdotto2/arduino101/blob/tutorial8-IMU/images/MMA8451.PNG)
+		![GY-521](images/MMA8451.PNG)
 - ### Program the chips with Arduino
 - ### Generate csv data from the chips
 - ### Plot csv data in excel
